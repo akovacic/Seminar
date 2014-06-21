@@ -1,0 +1,8 @@
+\select@language {croatian}
+\contentsline {chapter}{Uvod}{iii}{chapter*.2}
+\contentsline {section}{\numberline {1.1}DNA izra\IeC {\v c}unljivost}{iv}{section.1.1}
+\contentsline {section}{\numberline {1.2}O slo\IeC {\v z}enosti DNA ra\IeC {\v c}unala}{viii}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Problem Hamiltonovog puta}{xi}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Liptonov teorem}{xvii}{subsection.1.2.2}
+\contentsline {section}{\numberline {1.3}Prednosti i mane DNA ra\IeC {\v c}unala}{xxii}{section.1.3}
+\contentsline {chapter}{Bibliografija}{xxiv}{chapter*.3}

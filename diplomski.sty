@@ -1,0 +1,86 @@
+%%%%%%%%%%%%%%%%% diplomski.sty %%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%rev 2009/10/31-15:18
+
+\RequirePackage{amsmath}
+\RequirePackage{amsthm}
+\RequirePackage{amssymb}
+\RequirePackage[croatian]{babel}
+\RequirePackage{geometry}
+\geometry{bindingoffset=12mm,nomarginpar,includeall,left=23mm,right=23mm,top=35mm,bottom=38mm}
+\setlength\baselineskip{15pt}
+
+\newif\ifdedication
+\dedicationfalse
+
+
+\def\frontmatter{
+\pagenumbering{roman}
+\titlepage
+\komisija
+\ifdedication \dedicationpage \fi
+\tableofcontents
+\clearpage
+\pagenumbering{arabic}
+}
+
+\renewenvironment{thebibliography}[1]
+     {\chapter*{\bibname}%
+      \@mkboth{\MakeUppercase\bibname}{\MakeUppercase\bibname}%
+      \list{\@biblabel{\@arabic\c@enumiv}}%
+           {\settowidth\labelwidth{\@biblabel{#1}}%
+            \leftmargin\labelwidth
+            \advance\leftmargin\labelsep
+            \@openbib@code
+            \usecounter{enumiv}%
+            \let\p@enumiv\@empty
+            \renewcommand\theenumiv{\@arabic\c@enumiv}}%
+      \addcontentsline{toc}{chapter}{Bibliografija}
+      \sloppy
+      \clubpenalty4000
+      \@clubpenalty \clubpenalty
+      \widowpenalty4000%
+      \sfcode`\.\@m}
+     {\def\@noitemerr
+       {\@latex@warning{Empty `thebibliography' environment}}%
+      \endlist}
+
+\newenvironment{intro}
+     {\chapter*{Uvod}%
+      \@mkboth{UVOD}{UVOD}%
+      }{\addcontentsline{toc}{chapter}{Uvod}}
+
+\newenvironment{sazetak}{%
+\chapter*{Sa\v zetak}%
+\@mkboth{}{}%
+\thispagestyle{empty}
+}{}
+
+\newenvironment{summary}{%
+\chapter*{Summary}%
+\@mkboth{}{}%
+\thispagestyle{empty}
+}{}
+
+\newenvironment{cv}{%
+\chapter*{\v Zivotopis}%
+\@mkboth{}{}%
+\thispagestyle{empty}
+}{}
+
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+
+\DeclareMathOperator{\tg}{tg}
+\DeclareMathOperator{\ctg}{ctg}
+\DeclareMathOperator{\arctg}{arctg}
+\DeclareMathOperator{\arcctg}{arcctg}
+\DeclareMathOperator{\sh}{sh}
+\DeclareMathOperator{\ch}{ch}
+\DeclareMathOperator{\tgh}{th}
+\DeclareMathOperator{\cth}{cth}
+\DeclareMathOperator{\Ker}{Ker}
+\DeclareMathOperator{\slika}{Im}

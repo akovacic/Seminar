@@ -1,0 +1,46 @@
+\begin{thebibliography}{1}
+
+\bibitem{Adleman}
+L.~M. Adleman.
+\newblock {Molecular Computation of Solutions to Combinatorial Problems}.
+\newblock {\em Science}, 266(11):1021--1024, Nov. 1994.
+
+\bibitem{DNAerr}
+D.~Boneh, C.~Dunworth, R.~J. Lipton, and J.~Sgall.
+\newblock Making {DNA} computers error resistant.
+\newblock In L.~Landweber and E.~Baum, editors, {\em {DNA} Based Computers
+  {II}}, volume~44 of {\em DIMACS: Series in Discrete Mathematics and
+  Theoretical Computer Science}, pages 163--170. American Mathematical Society,
+  Providence, RI, 1999.
+
+\bibitem{Church}
+G.~M. Church, Y.~Gao, and S.~Kosuri.
+\newblock {Next-Generation Digital Information Storage in DNA}.
+\newblock {\em Science}, 337(6102):1628, Sept. 2012.
+
+\bibitem{HromkovicAHP}
+J.~Hromkovic and W.~M. Oliva.
+\newblock {\em Algorithmics for Hard Problems}.
+\newblock Springer-Verlag New York, Inc., Secaucus, NJ, USA, 2nd edition, 2002.
+
+\bibitem{Lipton}
+R.~J. Lipton.
+\newblock {DNA Solution of Hard Computational Problems}.
+\newblock {\em Science}, 268(5210):542--545, Apr. 1995.
+
+\bibitem{Sipser}
+M.~Sipser.
+\newblock {\em Introduction to the Theory of Computation}.
+\newblock International Thomson Publishing, 2nd edition, 2006.
+
+\bibitem{Vukovic}
+M.~Vukovi\'c.
+\newblock {\em Matematička logika}.
+\newblock Element, 2009.
+
+\bibitem{CNTYan}
+S.~Yan.
+\newblock {\em Computational Number Theory and Modern Cryptography}.
+\newblock Wiley-HEP information security series. Wiley, 2012.
+
+\end{thebibliography}
